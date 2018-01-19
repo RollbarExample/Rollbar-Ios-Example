@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05EAA50933FF6AB3EC5B54036872234A /* Pods-Rollbar-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44F03182C6416D7FCABE6B71AB0C21 /* Pods-Rollbar-Example-dummy.m */; };
+		07963F2653DEEA7EAA8AA18CD44F3815 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B32E6EBEFF5AD8605541193E2AE63 /* SVProgressHUD.m */; };
+		173D872CBA6DC3D40BBCFAE79724C7D0 /* Rollbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4611E040394A72C78A41548693678C /* Rollbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		293EBF0D93154908B2D281CD06A22265 /* RollbarConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D8885B843D21FEBFA50A0FC301E3CB /* RollbarConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9F2C575DF4EBD8CCFE0C51F0A32009 /* RollbarReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBEED4E5C6ED99BFC56144962354F6D /* RollbarReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA0034C100AC61A907A77DB1B1455D4 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8EB1AE0113B96B61EB78F1F07580C3 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3991BB44633844952792D7C220A569E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42390F0803F64EE0FDFA5584C6958584 /* UIKit.framework */; };
+		3BABA538A2F2E9B234480FF94129C75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EA4D8BE7CB33EA2115446731AE2EA /* Foundation.framework */; };
+		42FB1A37FB730FF236416A4073086B53 /* RollbarLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8F199040B1377819EBF89DB8AA5ECE /* RollbarLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44AE8F70A6EA1D049E6F5BA16D6E16E9 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1F62011C681907501916C25EB10296 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		579D2D94DA6FB49A5234557BDD03C73A /* Rollbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C9C7DE8775C67F928D777A62C0153D /* Rollbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5AC2ADF9A16E525C1B04415405C2C068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EA4D8BE7CB33EA2115446731AE2EA /* Foundation.framework */; };
+		6033B74683A9F66BA4DAA832762FEAA8 /* RollbarConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD29C88886DC7F79B4C0566D08B5B4 /* RollbarConfiguration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63EF18C4459FDCA07DAD25C4759B03BF /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D994FCF1BEF45ABDA969984613889FE /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE9A7BCB075394FEB43C0E09C1AA13D /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC50941CCE11B018FDBCE067DA27294 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		850FB0AEB22811B1B04F7746013C7B7C /* Rollbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E220530D3823BF67EA60AD4E28FFF5CE /* Rollbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996D6DA897E51162F8B8DA0174291B0D /* Pods-Rollbar-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEFAACC4B83B698E57049B47A5D11D7 /* Pods-Rollbar-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A20E881D1845AAD26736008F31D2BBF /* RollbarNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC50443B9442C974CB0BD3A16CEF63 /* RollbarNotifier.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A69F92E8169DB346603F0E9BA65E009 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CEF41F5049C5E02F42232AC9F26F9E /* QuartzCore.framework */; };
+		A14A913AAF7FDA2E72C81EBA9ECDB1E9 /* RollbarReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BC297969515FD2D343F5863B6D827A /* RollbarReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7F161BBDB5A9C0651D00729231950B4 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C8CADFBFC7953CCEE6B9B430245216 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A807F3B200F56CBAA2ED8B5AAFF94189 /* RollbarThread.h in Headers */ = {isa = PBXBuildFile; fileRef = D63C347F4AC00F4A39BD3BE4FA3DBC57 /* RollbarThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8208DF26A241AA988AC94884C0E90B7 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA023191F4C53F53D1011EFAADE8D86 /* SVRadialGradientLayer.m */; };
+		ABF3F2A65CD047A544D27C3C8BD23E5A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C0DC8CFD1318B783479C6922F83F6 /* SVProgressAnimatedView.m */; };
+		BE74346E9D9AD5763BCB63E575D58437 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2347B074D78530E86E8CFD1121C05BB0 /* SystemConfiguration.framework */; };
+		D84445FB10690F96500D3001759E16CE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1A6B7B1C413FC55A796FF1531493 /* SVIndefiniteAnimatedView.m */; };
+		E355880B85659F06EAF4B672FDE71186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EA4D8BE7CB33EA2115446731AE2EA /* Foundation.framework */; };
+		E3C77C89F74583930B3ABA140257FD54 /* Rollbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AFCD5EB45638B079AAE982D0D5602 /* Rollbar-dummy.m */; };
+		E40C8449E36CDFC96BABB719B36BD70C /* RollbarFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C748B167D563FDB9182AF59AC684D0 /* RollbarFileReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A354EC08DB7617C4682FC8FA0F073E /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B89E1215C1D3F368877B653B7A737F1 /* SVProgressHUD-dummy.m */; };
+		E5DEEBEAB1FC56C5D4E6D8A769945B1F /* RollbarThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD1541299502BF602F571CAA3B3881 /* RollbarThread.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F24279A8B0E8B838BBECBF139C028743 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D9498B5C9D2B86CF0AF99FD9CC83D24 /* SVProgressHUD.bundle */; };
+		F5F3C7A359BF822F827A20D8A54EE77B /* RollbarLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FC6518B26AB51592B1979D58094441 /* RollbarLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FCDA2F2489C911061DB830A563128589 /* RollbarNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8873EBDB879C018F7D91A228AD1A3F75 /* RollbarNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4566F100F73B61477CCE9D3A69AF94 /* RollbarFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3FA567F5BFEF5B7C508D59DD2066C /* RollbarFileReader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848D73BD737BD97E9964701927B4AAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31686B7C74BD8829CBDEA4C7B45ACA03;
+			remoteInfo = Rollbar;
+		};
+		F3F084E0AAC330FA266AB6989DB51A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00860656245CA11EF103604712DBD0D;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BC297969515FD2D343F5863B6D827A /* RollbarReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RollbarReachability.m; path = Rollbar/RollbarReachability.m; sourceTree = "<group>"; };
+		0A44F03182C6416D7FCABE6B71AB0C21 /* Pods-Rollbar-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rollbar-Example-dummy.m"; sourceTree = "<group>"; };
+		0D9498B5C9D2B86CF0AF99FD9CC83D24 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0DAD1A6B7B1C413FC55A796FF1531493 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		11D47483B4D8E84EB0661C3C0622EAC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0B32E6EBEFF5AD8605541193E2AE63 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		1B4611E040394A72C78A41548693678C /* Rollbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rollbar.h; path = Rollbar/Rollbar.h; sourceTree = "<group>"; };
+		21FD2366E0495362E63414615F7978D9 /* Pods-Rollbar-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rollbar-Example-frameworks.sh"; sourceTree = "<group>"; };
+		2347B074D78530E86E8CFD1121C05BB0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2DDD29C88886DC7F79B4C0566D08B5B4 /* RollbarConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RollbarConfiguration.m; path = Rollbar/RollbarConfiguration.m; sourceTree = "<group>"; };
+		38F3FA567F5BFEF5B7C508D59DD2066C /* RollbarFileReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RollbarFileReader.m; path = Rollbar/RollbarFileReader.m; sourceTree = "<group>"; };
+		3B1F62011C681907501916C25EB10296 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3B89E1215C1D3F368877B653B7A737F1 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		3EEFAACC4B83B698E57049B47A5D11D7 /* Pods-Rollbar-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rollbar-Example-umbrella.h"; sourceTree = "<group>"; };
+		42390F0803F64EE0FDFA5584C6958584 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4AA023191F4C53F53D1011EFAADE8D86 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		4C9A253240AF164F8A01B7D64EA78FA0 /* Pods-Rollbar-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rollbar-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		520AFCD5EB45638B079AAE982D0D5602 /* Rollbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rollbar-dummy.m"; sourceTree = "<group>"; };
+		52C8CADFBFC7953CCEE6B9B430245216 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		54438684B7827786821BD8147E331D4A /* Pods-Rollbar-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rollbar-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		582EA4D8BE7CB33EA2115446731AE2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60B9C54A896158F6A89D573D0FF13CC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CEF41F5049C5E02F42232AC9F26F9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		62C9C7DE8775C67F928D777A62C0153D /* Rollbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Rollbar.m; path = Rollbar/Rollbar.m; sourceTree = "<group>"; };
+		6C8F199040B1377819EBF89DB8AA5ECE /* RollbarLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RollbarLogger.h; path = Rollbar/RollbarLogger.h; sourceTree = "<group>"; };
+		6D994FCF1BEF45ABDA969984613889FE /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		7BB6881E9290863659CBBF8684CA9F7C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC50941CCE11B018FDBCE067DA27294 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		8873EBDB879C018F7D91A228AD1A3F75 /* RollbarNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RollbarNotifier.h; path = Rollbar/RollbarNotifier.h; sourceTree = "<group>"; };
+		88D8885B843D21FEBFA50A0FC301E3CB /* RollbarConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RollbarConfiguration.h; path = Rollbar/RollbarConfiguration.h; sourceTree = "<group>"; };
+		8930446368849C0D714F69D58D30C97B /* Pods-Rollbar-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rollbar-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A91DE61856BCE938B058A8B03F6543E /* Pods-Rollbar-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rollbar-Example-resources.sh"; sourceTree = "<group>"; };
+		8EB0773AE81DAA876D1C18B427B4A864 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		8EF59A944525AC89DDD9F56FD26B097B /* Rollbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Rollbar.modulemap; sourceTree = "<group>"; };
+		90614819FB4904BFC8F3677D0C1B922F /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = Vendor/CrashReporter.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1E520A42232DECDA68BA81A035B697 /* Pods_Rollbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rollbar_Example.framework; path = "Pods-Rollbar-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFC50443B9442C974CB0BD3A16CEF63 /* RollbarNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RollbarNotifier.m; path = Rollbar/RollbarNotifier.m; sourceTree = "<group>"; };
+		AFBAD8D0091DD1C478C6791D5E5DC549 /* Rollbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rollbar.framework; path = Rollbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14C0DC8CFD1318B783479C6922F83F6 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		B2CD1541299502BF602F571CAA3B3881 /* RollbarThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RollbarThread.m; path = Rollbar/RollbarThread.m; sourceTree = "<group>"; };
+		B6E5238BE53B4A832A4EB0B4E3885E44 /* Rollbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rollbar-prefix.pch"; sourceTree = "<group>"; };
+		BB8EB1AE0113B96B61EB78F1F07580C3 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		D3C748B167D563FDB9182AF59AC684D0 /* RollbarFileReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RollbarFileReader.h; path = Rollbar/RollbarFileReader.h; sourceTree = "<group>"; };
+		D584B48E0017DF6180A289D05A02436D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63C347F4AC00F4A39BD3BE4FA3DBC57 /* RollbarThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RollbarThread.h; path = Rollbar/RollbarThread.h; sourceTree = "<group>"; };
+		DCED8B5F2C5012754AC4AA9CF3EF356D /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		DEB0482041383EA2AC303618B2520691 /* Pods-Rollbar-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Rollbar-Example.modulemap"; sourceTree = "<group>"; };
+		E220530D3823BF67EA60AD4E28FFF5CE /* Rollbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rollbar-umbrella.h"; sourceTree = "<group>"; };
+		E67E95BB9E8C42FC0D5809D8EEBC24AF /* Rollbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rollbar.xcconfig; sourceTree = "<group>"; };
+		ECBEED4E5C6ED99BFC56144962354F6D /* RollbarReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RollbarReachability.h; path = Rollbar/RollbarReachability.h; sourceTree = "<group>"; };
+		ED30B4D331DC882AA1A72F55A62CE8CB /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F2FC6518B26AB51592B1979D58094441 /* RollbarLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RollbarLogger.m; path = Rollbar/RollbarLogger.m; sourceTree = "<group>"; };
+		FBDF408800AE136F41858D889A46D68B /* Pods-Rollbar-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rollbar-Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BB81F42C2F98AC31B98B51764121F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E355880B85659F06EAF4B672FDE71186 /* Foundation.framework in Frameworks */,
+				9A69F92E8169DB346603F0E9BA65E009 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC27680148DBEC6F0155580DD0FBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BABA538A2F2E9B234480FF94129C75E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7521ED4A701A261B4BFCD71A03BEB49E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC2ADF9A16E525C1B04415405C2C068 /* Foundation.framework in Frameworks */,
+				BE74346E9D9AD5763BCB63E575D58437 /* SystemConfiguration.framework in Frameworks */,
+				3991BB44633844952792D7C220A569E2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BB56DE12E72DA551DF45E1CF6E89FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				779C9BC0C26FE0B72F5443ADA2EBD0BC /* Rollbar */,
+				32E68B08132DA7EA5B5AB56AF36E7643 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F9D4AB51EA3D9BFF36B93CF44E2A3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90614819FB4904BFC8F3677D0C1B922F /* CrashReporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB42E7AC373B2B19369C2464322123 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E68B08132DA7EA5B5AB56AF36E7643 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3B1F62011C681907501916C25EB10296 /* SVIndefiniteAnimatedView.h */,
+				0DAD1A6B7B1C413FC55A796FF1531493 /* SVIndefiniteAnimatedView.m */,
+				7CC50941CCE11B018FDBCE067DA27294 /* SVProgressAnimatedView.h */,
+				B14C0DC8CFD1318B783479C6922F83F6 /* SVProgressAnimatedView.m */,
+				BB8EB1AE0113B96B61EB78F1F07580C3 /* SVProgressHUD.h */,
+				1A0B32E6EBEFF5AD8605541193E2AE63 /* SVProgressHUD.m */,
+				6D994FCF1BEF45ABDA969984613889FE /* SVRadialGradientLayer.h */,
+				4AA023191F4C53F53D1011EFAADE8D86 /* SVRadialGradientLayer.m */,
+				BD7130337BC073D55315F9B032C1CD5E /* Resources */,
+				C8B60ECAFB6D666A92C1A99418B46B66 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		3EAB42E7AC373B2B19369C2464322123 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				582EA4D8BE7CB33EA2115446731AE2EA /* Foundation.framework */,
+				61CEF41F5049C5E02F42232AC9F26F9E /* QuartzCore.framework */,
+				2347B074D78530E86E8CFD1121C05BB0 /* SystemConfiguration.framework */,
+				42390F0803F64EE0FDFA5584C6958584 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AE8C55A53395B712001F412FCB08227 /* Pods-Rollbar-Example */ = {
+			isa = PBXGroup;
+			children = (
+				60B9C54A896158F6A89D573D0FF13CC1 /* Info.plist */,
+				DEB0482041383EA2AC303618B2520691 /* Pods-Rollbar-Example.modulemap */,
+				4C9A253240AF164F8A01B7D64EA78FA0 /* Pods-Rollbar-Example-acknowledgements.markdown */,
+				8930446368849C0D714F69D58D30C97B /* Pods-Rollbar-Example-acknowledgements.plist */,
+				0A44F03182C6416D7FCABE6B71AB0C21 /* Pods-Rollbar-Example-dummy.m */,
+				21FD2366E0495362E63414615F7978D9 /* Pods-Rollbar-Example-frameworks.sh */,
+				8A91DE61856BCE938B058A8B03F6543E /* Pods-Rollbar-Example-resources.sh */,
+				3EEFAACC4B83B698E57049B47A5D11D7 /* Pods-Rollbar-Example-umbrella.h */,
+				54438684B7827786821BD8147E331D4A /* Pods-Rollbar-Example.debug.xcconfig */,
+				FBDF408800AE136F41858D889A46D68B /* Pods-Rollbar-Example.release.xcconfig */,
+			);
+			name = "Pods-Rollbar-Example";
+			path = "Target Support Files/Pods-Rollbar-Example";
+			sourceTree = "<group>";
+		};
+		6C6EBED4BB86D9EC346DBA63C0A39773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1E520A42232DECDA68BA81A035B697 /* Pods_Rollbar_Example.framework */,
+				AFBAD8D0091DD1C478C6791D5E5DC549 /* Rollbar.framework */,
+				7BB6881E9290863659CBBF8684CA9F7C /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779C9BC0C26FE0B72F5443ADA2EBD0BC /* Rollbar */ = {
+			isa = PBXGroup;
+			children = (
+				1B4611E040394A72C78A41548693678C /* Rollbar.h */,
+				62C9C7DE8775C67F928D777A62C0153D /* Rollbar.m */,
+				88D8885B843D21FEBFA50A0FC301E3CB /* RollbarConfiguration.h */,
+				2DDD29C88886DC7F79B4C0566D08B5B4 /* RollbarConfiguration.m */,
+				D3C748B167D563FDB9182AF59AC684D0 /* RollbarFileReader.h */,
+				38F3FA567F5BFEF5B7C508D59DD2066C /* RollbarFileReader.m */,
+				6C8F199040B1377819EBF89DB8AA5ECE /* RollbarLogger.h */,
+				F2FC6518B26AB51592B1979D58094441 /* RollbarLogger.m */,
+				8873EBDB879C018F7D91A228AD1A3F75 /* RollbarNotifier.h */,
+				9DFC50443B9442C974CB0BD3A16CEF63 /* RollbarNotifier.m */,
+				ECBEED4E5C6ED99BFC56144962354F6D /* RollbarReachability.h */,
+				05BC297969515FD2D343F5863B6D827A /* RollbarReachability.m */,
+				D63C347F4AC00F4A39BD3BE4FA3DBC57 /* RollbarThread.h */,
+				B2CD1541299502BF602F571CAA3B3881 /* RollbarThread.m */,
+				0F9D4AB51EA3D9BFF36B93CF44E2A3BF /* Frameworks */,
+				F3CB0146E794C755DFA03A68E9DBD363 /* Support Files */,
+			);
+			name = Rollbar;
+			path = Rollbar;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				04BB56DE12E72DA551DF45E1CF6E89FB /* Pods */,
+				6C6EBED4BB86D9EC346DBA63C0A39773 /* Products */,
+				9F012524F942478D8099E4CC4EB2DCF7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F012524F942478D8099E4CC4EB2DCF7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8C55A53395B712001F412FCB08227 /* Pods-Rollbar-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BD7130337BC073D55315F9B032C1CD5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D9498B5C9D2B86CF0AF99FD9CC83D24 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C8B60ECAFB6D666A92C1A99418B46B66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D47483B4D8E84EB0661C3C0622EAC5 /* Info.plist */,
+				8EB0773AE81DAA876D1C18B427B4A864 /* SVProgressHUD.modulemap */,
+				DCED8B5F2C5012754AC4AA9CF3EF356D /* SVProgressHUD.xcconfig */,
+				3B89E1215C1D3F368877B653B7A737F1 /* SVProgressHUD-dummy.m */,
+				ED30B4D331DC882AA1A72F55A62CE8CB /* SVProgressHUD-prefix.pch */,
+				52C8CADFBFC7953CCEE6B9B430245216 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		F3CB0146E794C755DFA03A68E9DBD363 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D584B48E0017DF6180A289D05A02436D /* Info.plist */,
+				8EF59A944525AC89DDD9F56FD26B097B /* Rollbar.modulemap */,
+				E67E95BB9E8C42FC0D5809D8EEBC24AF /* Rollbar.xcconfig */,
+				520AFCD5EB45638B079AAE982D0D5602 /* Rollbar-dummy.m */,
+				B6E5238BE53B4A832A4EB0B4E3885E44 /* Rollbar-prefix.pch */,
+				E220530D3823BF67EA60AD4E28FFF5CE /* Rollbar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Rollbar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7221DD20541F055EE0531D7C1FF1FD39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AE8F70A6EA1D049E6F5BA16D6E16E9 /* SVIndefiniteAnimatedView.h in Headers */,
+				6CE9A7BCB075394FEB43C0E09C1AA13D /* SVProgressAnimatedView.h in Headers */,
+				A7F161BBDB5A9C0651D00729231950B4 /* SVProgressHUD-umbrella.h in Headers */,
+				2DA0034C100AC61A907A77DB1B1455D4 /* SVProgressHUD.h in Headers */,
+				63EF18C4459FDCA07DAD25C4759B03BF /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4EDEC5C8C93632EC299F73E6B0D5A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996D6DA897E51162F8B8DA0174291B0D /* Pods-Rollbar-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1935CBB6032F36A6E066E830B036D40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FB0AEB22811B1B04F7746013C7B7C /* Rollbar-umbrella.h in Headers */,
+				173D872CBA6DC3D40BBCFAE79724C7D0 /* Rollbar.h in Headers */,
+				293EBF0D93154908B2D281CD06A22265 /* RollbarConfiguration.h in Headers */,
+				E40C8449E36CDFC96BABB719B36BD70C /* RollbarFileReader.h in Headers */,
+				42FB1A37FB730FF236416A4073086B53 /* RollbarLogger.h in Headers */,
+				FCDA2F2489C911061DB830A563128589 /* RollbarNotifier.h in Headers */,
+				2B9F2C575DF4EBD8CCFE0C51F0A32009 /* RollbarReachability.h in Headers */,
+				A807F3B200F56CBAA2ED8B5AAFF94189 /* RollbarThread.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31686B7C74BD8829CBDEA4C7B45ACA03 /* Rollbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB803EB48F80C33FFE58870BDD86FF0 /* Build configuration list for PBXNativeTarget "Rollbar" */;
+			buildPhases = (
+				34DCCFB32EF36C6B743D643D22F18AEA /* Sources */,
+				7521ED4A701A261B4BFCD71A03BEB49E /* Frameworks */,
+				F1935CBB6032F36A6E066E830B036D40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rollbar;
+			productName = Rollbar;
+			productReference = AFBAD8D0091DD1C478C6791D5E5DC549 /* Rollbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B00860656245CA11EF103604712DBD0D /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4095725A8AEC6B8E4D48E052159AF0 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				707B3CA27C16C5F8601D40B56B39533B /* Sources */,
+				14BB81F42C2F98AC31B98B51764121F5 /* Frameworks */,
+				7221DD20541F055EE0531D7C1FF1FD39 /* Headers */,
+				0C7CF50AB313742E07119FFFA347CDFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 7BB6881E9290863659CBBF8684CA9F7C /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3CCFA6B9D780D6A1A80AEB557C418F9 /* Pods-Rollbar-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1943B95AD639429D61174564B15C53B /* Build configuration list for PBXNativeTarget "Pods-Rollbar-Example" */;
+			buildPhases = (
+				4FFD984F51C82DAD9DDABD83A96CF943 /* Sources */,
+				42FC27680148DBEC6F0155580DD0FBCC /* Frameworks */,
+				AA4EDEC5C8C93632EC299F73E6B0D5A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA774493725FB165AAD2E3E1C99C731 /* PBXTargetDependency */,
+				9A7D94BB41068B42F162AAC3880AFF3E /* PBXTargetDependency */,
+			);
+			name = "Pods-Rollbar-Example";
+			productName = "Pods-Rollbar-Example";
+			productReference = 9A1E520A42232DECDA68BA81A035B697 /* Pods_Rollbar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C6EBED4BB86D9EC346DBA63C0A39773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CCFA6B9D780D6A1A80AEB557C418F9 /* Pods-Rollbar-Example */,
+				31686B7C74BD8829CBDEA4C7B45ACA03 /* Rollbar */,
+				B00860656245CA11EF103604712DBD0D /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C7CF50AB313742E07119FFFA347CDFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24279A8B0E8B838BBECBF139C028743 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34DCCFB32EF36C6B743D643D22F18AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C77C89F74583930B3ABA140257FD54 /* Rollbar-dummy.m in Sources */,
+				579D2D94DA6FB49A5234557BDD03C73A /* Rollbar.m in Sources */,
+				6033B74683A9F66BA4DAA832762FEAA8 /* RollbarConfiguration.m in Sources */,
+				FF4566F100F73B61477CCE9D3A69AF94 /* RollbarFileReader.m in Sources */,
+				F5F3C7A359BF822F827A20D8A54EE77B /* RollbarLogger.m in Sources */,
+				9A20E881D1845AAD26736008F31D2BBF /* RollbarNotifier.m in Sources */,
+				A14A913AAF7FDA2E72C81EBA9ECDB1E9 /* RollbarReachability.m in Sources */,
+				E5DEEBEAB1FC56C5D4E6D8A769945B1F /* RollbarThread.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFD984F51C82DAD9DDABD83A96CF943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EAA50933FF6AB3EC5B54036872234A /* Pods-Rollbar-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707B3CA27C16C5F8601D40B56B39533B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84445FB10690F96500D3001759E16CE /* SVIndefiniteAnimatedView.m in Sources */,
+				ABF3F2A65CD047A544D27C3C8BD23E5A /* SVProgressAnimatedView.m in Sources */,
+				E4A354EC08DB7617C4682FC8FA0F073E /* SVProgressHUD-dummy.m in Sources */,
+				07963F2653DEEA7EAA8AA18CD44F3815 /* SVProgressHUD.m in Sources */,
+				A8208DF26A241AA988AC94884C0E90B7 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FA774493725FB165AAD2E3E1C99C731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rollbar;
+			target = 31686B7C74BD8829CBDEA4C7B45ACA03 /* Rollbar */;
+			targetProxy = 848D73BD737BD97E9964701927B4AAF5 /* PBXContainerItemProxy */;
+		};
+		9A7D94BB41068B42F162AAC3880AFF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = B00860656245CA11EF103604712DBD0D /* SVProgressHUD */;
+			targetProxy = F3F084E0AAC330FA266AB6989DB51A99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F7D46B8E27DBE368ED587FD44D7A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5724C5D42915BCE389BAB8388DBFA311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54438684B7827786821BD8147E331D4A /* Pods-Rollbar-Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rollbar-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rollbar-Example/Pods-Rollbar-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rollbar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC204D68E8E7A4A996D564879EC467D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCED8B5F2C5012754AC4AA9CF3EF356D /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B31E5057B047410BA5ECDCAA44895AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDF408800AE136F41858D889A46D68B /* Pods-Rollbar-Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rollbar-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rollbar-Example/Pods-Rollbar-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rollbar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1D04F8A8F6DA99D7A4D25F5EC5E3447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCED8B5F2C5012754AC4AA9CF3EF356D /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA421324D564C7C1AC8F6073861B19D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67E95BB9E8C42FC0D5809D8EEBC24AF /* Rollbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rollbar/Rollbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rollbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rollbar/Rollbar.modulemap";
+				PRODUCT_NAME = Rollbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F382FC2073CDADE3AE932C0A7FF678CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE839723068983BEF0550E0B36D95FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67E95BB9E8C42FC0D5809D8EEBC24AF /* Rollbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rollbar/Rollbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rollbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rollbar/Rollbar.modulemap";
+				PRODUCT_NAME = Rollbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB803EB48F80C33FFE58870BDD86FF0 /* Build configuration list for PBXNativeTarget "Rollbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE839723068983BEF0550E0B36D95FE3 /* Debug */,
+				EA421324D564C7C1AC8F6073861B19D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7D46B8E27DBE368ED587FD44D7A1D9 /* Debug */,
+				F382FC2073CDADE3AE932C0A7FF678CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4095725A8AEC6B8E4D48E052159AF0 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC204D68E8E7A4A996D564879EC467D /* Debug */,
+				E1D04F8A8F6DA99D7A4D25F5EC5E3447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1943B95AD639429D61174564B15C53B /* Build configuration list for PBXNativeTarget "Pods-Rollbar-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5724C5D42915BCE389BAB8388DBFA311 /* Debug */,
+				B31E5057B047410BA5ECDCAA44895AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Rollbar_Example {
+  umbrella header "Pods-Rollbar-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

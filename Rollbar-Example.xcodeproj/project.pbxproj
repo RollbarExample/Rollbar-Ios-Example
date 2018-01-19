@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		648DD72EB81F39B686F4FC0E /* Pods_Rollbar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD66AD939CB59E02FC9F00E6 /* Pods_Rollbar_Example.framework */; };
+		D1FD65D22011CE74007144E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD65D12011CE74007144E2 /* AppDelegate.swift */; };
+		D1FD65D42011CE74007144E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD65D32011CE74007144E2 /* ViewController.swift */; };
+		D1FD65D72011CE74007144E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FD65D52011CE74007144E2 /* Main.storyboard */; };
+		D1FD65D92011CE74007144E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FD65D82011CE74007144E2 /* Assets.xcassets */; };
+		D1FD65DC2011CE74007144E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FD65DA2011CE74007144E2 /* LaunchScreen.storyboard */; };
+		D1FD65E72011CE74007144E2 /* Rollbar_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD65E62011CE74007144E2 /* Rollbar_ExampleTests.swift */; };
+		D1FD65F22011CE74007144E2 /* Rollbar_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD65F12011CE74007144E2 /* Rollbar_ExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1FD65E32011CE74007144E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FD65C62011CE73007144E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FD65CD2011CE74007144E2;
+			remoteInfo = "Rollbar-Example";
+		};
+		D1FD65EE2011CE74007144E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FD65C62011CE73007144E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FD65CD2011CE74007144E2;
+			remoteInfo = "Rollbar-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		795D3DE2D1C074621D7391C1 /* Pods-Rollbar-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rollbar-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rollbar-Example/Pods-Rollbar-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AD66AD939CB59E02FC9F00E6 /* Pods_Rollbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rollbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FD65CE2011CE74007144E2 /* Rollbar-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rollbar-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FD65D12011CE74007144E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1FD65D32011CE74007144E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1FD65D62011CE74007144E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1FD65D82011CE74007144E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1FD65DB2011CE74007144E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1FD65DD2011CE74007144E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FD65E22011CE74007144E2 /* Rollbar-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rollbar-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FD65E62011CE74007144E2 /* Rollbar_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rollbar_ExampleTests.swift; sourceTree = "<group>"; };
+		D1FD65E82011CE74007144E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FD65ED2011CE74007144E2 /* Rollbar-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rollbar-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FD65F12011CE74007144E2 /* Rollbar_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rollbar_ExampleUITests.swift; sourceTree = "<group>"; };
+		D1FD65F32011CE74007144E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD248B75249E5D2AFDA9AD8 /* Pods-Rollbar-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rollbar-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rollbar-Example/Pods-Rollbar-Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1FD65CB2011CE74007144E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648DD72EB81F39B686F4FC0E /* Pods_Rollbar_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FD65DF2011CE74007144E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FD65EA2011CE74007144E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27281B9AC57477A74344F865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD66AD939CB59E02FC9F00E6 /* Pods_Rollbar_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FEC7F70EC1BAC4EFB617215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				795D3DE2D1C074621D7391C1 /* Pods-Rollbar-Example.debug.xcconfig */,
+				EBD248B75249E5D2AFDA9AD8 /* Pods-Rollbar-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1FD65C52011CE73007144E2 = {
+			isa = PBXGroup;
+			children = (
+				D1FD65D02011CE74007144E2 /* Rollbar-Example */,
+				D1FD65E52011CE74007144E2 /* Rollbar-ExampleTests */,
+				D1FD65F02011CE74007144E2 /* Rollbar-ExampleUITests */,
+				D1FD65CF2011CE74007144E2 /* Products */,
+				3FEC7F70EC1BAC4EFB617215 /* Pods */,
+				27281B9AC57477A74344F865 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1FD65CF2011CE74007144E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1FD65CE2011CE74007144E2 /* Rollbar-Example.app */,
+				D1FD65E22011CE74007144E2 /* Rollbar-ExampleTests.xctest */,
+				D1FD65ED2011CE74007144E2 /* Rollbar-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1FD65D02011CE74007144E2 /* Rollbar-Example */ = {
+			isa = PBXGroup;
+			children = (
+				D1FD65D12011CE74007144E2 /* AppDelegate.swift */,
+				D1FD65D32011CE74007144E2 /* ViewController.swift */,
+				D1FD65D52011CE74007144E2 /* Main.storyboard */,
+				D1FD65D82011CE74007144E2 /* Assets.xcassets */,
+				D1FD65DA2011CE74007144E2 /* LaunchScreen.storyboard */,
+				D1FD65DD2011CE74007144E2 /* Info.plist */,
+			);
+			path = "Rollbar-Example";
+			sourceTree = "<group>";
+		};
+		D1FD65E52011CE74007144E2 /* Rollbar-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FD65E62011CE74007144E2 /* Rollbar_ExampleTests.swift */,
+				D1FD65E82011CE74007144E2 /* Info.plist */,
+			);
+			path = "Rollbar-ExampleTests";
+			sourceTree = "<group>";
+		};
+		D1FD65F02011CE74007144E2 /* Rollbar-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FD65F12011CE74007144E2 /* Rollbar_ExampleUITests.swift */,
+				D1FD65F32011CE74007144E2 /* Info.plist */,
+			);
+			path = "Rollbar-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1FD65CD2011CE74007144E2 /* Rollbar-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FD65F62011CE74007144E2 /* Build configuration list for PBXNativeTarget "Rollbar-Example" */;
+			buildPhases = (
+				E10E0CF845C1B482F8971AC2 /* [CP] Check Pods Manifest.lock */,
+				D1FD65CA2011CE74007144E2 /* Sources */,
+				D1FD65CB2011CE74007144E2 /* Frameworks */,
+				D1FD65CC2011CE74007144E2 /* Resources */,
+				342BFB499A797C23C4AFD1F1 /* [CP] Embed Pods Frameworks */,
+				ED0B4BD40A7A6F13827CF21D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rollbar-Example";
+			productName = "Rollbar-Example";
+			productReference = D1FD65CE2011CE74007144E2 /* Rollbar-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1FD65E12011CE74007144E2 /* Rollbar-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FD65F92011CE74007144E2 /* Build configuration list for PBXNativeTarget "Rollbar-ExampleTests" */;
+			buildPhases = (
+				D1FD65DE2011CE74007144E2 /* Sources */,
+				D1FD65DF2011CE74007144E2 /* Frameworks */,
+				D1FD65E02011CE74007144E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FD65E42011CE74007144E2 /* PBXTargetDependency */,
+			);
+			name = "Rollbar-ExampleTests";
+			productName = "Rollbar-ExampleTests";
+			productReference = D1FD65E22011CE74007144E2 /* Rollbar-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1FD65EC2011CE74007144E2 /* Rollbar-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FD65FC2011CE74007144E2 /* Build configuration list for PBXNativeTarget "Rollbar-ExampleUITests" */;
+			buildPhases = (
+				D1FD65E92011CE74007144E2 /* Sources */,
+				D1FD65EA2011CE74007144E2 /* Frameworks */,
+				D1FD65EB2011CE74007144E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FD65EF2011CE74007144E2 /* PBXTargetDependency */,
+			);
+			name = "Rollbar-ExampleUITests";
+			productName = "Rollbar-ExampleUITests";
+			productReference = D1FD65ED2011CE74007144E2 /* Rollbar-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1FD65C62011CE73007144E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "PS QuickIT";
+				TargetAttributes = {
+					D1FD65CD2011CE74007144E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D1FD65E12011CE74007144E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1FD65CD2011CE74007144E2;
+					};
+					D1FD65EC2011CE74007144E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1FD65CD2011CE74007144E2;
+					};
+				};
+			};
+			buildConfigurationList = D1FD65C92011CE73007144E2 /* Build configuration list for PBXProject "Rollbar-Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1FD65C52011CE73007144E2;
+			productRefGroup = D1FD65CF2011CE74007144E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FD65CD2011CE74007144E2 /* Rollbar-Example */,
+				D1FD65E12011CE74007144E2 /* Rollbar-ExampleTests */,
+				D1FD65EC2011CE74007144E2 /* Rollbar-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1FD65CC2011CE74007144E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FD65DC2011CE74007144E2 /* LaunchScreen.storyboard in Resources */,
+				D1FD65D92011CE74007144E2 /* Assets.xcassets in Resources */,
+				D1FD65D72011CE74007144E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FD65E02011CE74007144E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FD65EB2011CE74007144E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		342BFB499A797C23C4AFD1F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rollbar-Example/Pods-Rollbar-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Rollbar/Rollbar.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rollbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rollbar-Example/Pods-Rollbar-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10E0CF845C1B482F8971AC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rollbar-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0B4BD40A7A6F13827CF21D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rollbar-Example/Pods-Rollbar-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1FD65CA2011CE74007144E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FD65D42011CE74007144E2 /* ViewController.swift in Sources */,
+				D1FD65D22011CE74007144E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FD65DE2011CE74007144E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FD65E72011CE74007144E2 /* Rollbar_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FD65E92011CE74007144E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FD65F22011CE74007144E2 /* Rollbar_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1FD65E42011CE74007144E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FD65CD2011CE74007144E2 /* Rollbar-Example */;
+			targetProxy = D1FD65E32011CE74007144E2 /* PBXContainerItemProxy */;
+		};
+		D1FD65EF2011CE74007144E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FD65CD2011CE74007144E2 /* Rollbar-Example */;
+			targetProxy = D1FD65EE2011CE74007144E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1FD65D52011CE74007144E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FD65D62011CE74007144E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1FD65DA2011CE74007144E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FD65DB2011CE74007144E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1FD65F42011CE74007144E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1FD65F52011CE74007144E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1FD65F72011CE74007144E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 795D3DE2D1C074621D7391C1 /* Pods-Rollbar-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rollbar-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PS-QuickIT.Rollbar-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1FD65F82011CE74007144E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD248B75249E5D2AFDA9AD8 /* Pods-Rollbar-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rollbar-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PS-QuickIT.Rollbar-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1FD65FA2011CE74007144E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rollbar-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PS-QuickIT.Rollbar-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rollbar-Example.app/Rollbar-Example";
+			};
+			name = Debug;
+		};
+		D1FD65FB2011CE74007144E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rollbar-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PS-QuickIT.Rollbar-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rollbar-Example.app/Rollbar-Example";
+			};
+			name = Release;
+		};
+		D1FD65FD2011CE74007144E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rollbar-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PS-QuickIT.Rollbar-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rollbar-Example";
+			};
+			name = Debug;
+		};
+		D1FD65FE2011CE74007144E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rollbar-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PS-QuickIT.Rollbar-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rollbar-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1FD65C92011CE73007144E2 /* Build configuration list for PBXProject "Rollbar-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FD65F42011CE74007144E2 /* Debug */,
+				D1FD65F52011CE74007144E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FD65F62011CE74007144E2 /* Build configuration list for PBXNativeTarget "Rollbar-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FD65F72011CE74007144E2 /* Debug */,
+				D1FD65F82011CE74007144E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FD65F92011CE74007144E2 /* Build configuration list for PBXNativeTarget "Rollbar-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FD65FA2011CE74007144E2 /* Debug */,
+				D1FD65FB2011CE74007144E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FD65FC2011CE74007144E2 /* Build configuration list for PBXNativeTarget "Rollbar-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FD65FD2011CE74007144E2 /* Debug */,
+				D1FD65FE2011CE74007144E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1FD65C62011CE73007144E2 /* Project object */;
+}
